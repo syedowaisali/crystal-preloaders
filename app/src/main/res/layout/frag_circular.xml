@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <!-- row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <com.crystal.crystalpreloaders.widgets.CrystalPreloader
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerInParent="true"
+                        app:crs_pl_style="tornado_circle_1"
+                        app:crs_pl_size="small" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <com.crystal.crystalpreloaders.widgets.CrystalPreloader
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerInParent="true"
+                        app:crs_pl_style="tornado_circle_2"
+                        app:crs_pl_size="small"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <com.crystal.crystalpreloaders.widgets.CrystalPreloader
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerInParent="true"
+                        app:crs_pl_style="tornado_circle_3"
+                        app:crs_pl_size="small"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!-- row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <com.crystal.crystalpreloaders.widgets.CrystalPreloader
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerInParent="true"
+                        app:crs_pl_style="expandable_balls"
+                        app:crs_pl_size="small" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <com.crystal.crystalpreloaders.widgets.CrystalPreloader
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerInParent="true"
+                        app:crs_pl_style="circular"
+                        app:crs_pl_size="small"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <com.crystal.crystalpreloaders.widgets.CrystalPreloader
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerInParent="true"
+                        app:crs_pl_style="ball_ring"
+                        app:crs_pl_size="small"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!-- row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_s"
+                android:layout_marginTop="20dp"
+                android:weightSum="3"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <com.crystal.crystalpreloaders.widgets.CrystalPreloader
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerInParent="true"
+                        app:crs_pl_style="ball_pulse"
+                        app:crs_pl_size="small"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <com.crystal.crystalpreloaders.widgets.CrystalPreloader
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerInParent="true"
+                        app:crs_pl_style="ball_pulse_sync"
+                        app:crs_pl_size="small"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <com.crystal.crystalpreloaders.widgets.CrystalPreloader
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerInParent="true"
+                        app:crs_pl_style="ball_beat"
+                        app:crs_pl_size="small"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <com.crystal.crystalpreloaders.widgets.CrystalPreloader
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerInParent="true"
+                        app:crs_pl_style="skype_balls"
+                        app:crs_pl_size="small" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <com.crystal.crystalpreloaders.widgets.CrystalPreloader
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerInParent="true"
+                        app:crs_pl_style="hasher"
+                        app:crs_pl_size="small"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <com.crystal.crystalpreloaders.widgets.CrystalPreloader
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerInParent="true"
+                        app:crs_pl_style="alternative"
+                        app:crs_pl_size="small"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!-- row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:weightSum="3"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <com.crystal.crystalpreloaders.widgets.CrystalPreloader
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerInParent="true"
+                        app:crs_pl_style="triplex"
+                        app:crs_pl_size="small" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <com.crystal.crystalpreloaders.widgets.CrystalPreloader
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerInParent="true"
+                        app:crs_pl_style="time_machine"
+                        app:crs_pl_size="small"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <com.crystal.crystalpreloaders.widgets.CrystalPreloader
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerInParent="true"
+                        app:crs_pl_style="chronos"
+                        app:crs_pl_size="small"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!-- row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:weightSum="3"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <com.crystal.crystalpreloaders.widgets.CrystalPreloader
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerInParent="true"
+                        app:crs_pl_style="in_circle"
+                        app:crs_pl_size="small" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <com.crystal.crystalpreloaders.widgets.CrystalPreloader
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerInParent="true"
+                        app:crs_pl_style="ventilator"
+                        app:crs_pl_size="small"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <com.crystal.crystalpreloaders.widgets.CrystalPreloader
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerInParent="true"
+                        app:crs_pl_style="pulse"
+                        app:crs_pl_size="small"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!-- row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:weightSum="3"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <com.crystal.crystalpreloaders.widgets.CrystalPreloader
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerInParent="true"
+                        app:crs_pl_style="half_moon"
+                        app:crs_pl_size="small"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <com.crystal.crystalpreloaders.widgets.CrystalPreloader
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerInParent="true"
+                        app:crs_pl_style="ball_scale"
+                        app:crs_pl_size="small"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <com.crystal.crystalpreloaders.widgets.CrystalPreloader
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerInParent="true"
+                        app:crs_pl_style="ball_spin_fade"
+                        app:crs_pl_size="small"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

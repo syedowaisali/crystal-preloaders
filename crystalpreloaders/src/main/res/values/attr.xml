@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CrystalPreloader">
+        <attr name="crs_pl_fg_color" format="color" />
+        <attr name="crs_pl_bg_color" format="color" />
+        <attr name="crs_pl_size" format="enum">
+            <enum name="very_small" value="0" />
+            <enum name="small" value="1" />
+            <enum name="medium" value="2" />
+            <enum name="large" value="3" />
+            <enum name="extra_large" value="4" />
+        </attr>
+        <attr name="crs_pl_style" format="enum" >
+            <enum name="skype_balls" value="0" />
+            <enum name="hasher" value="1" />
+            <enum name="alternative" value="2" />
+            <enum name="triplex" value="3" />
+            <enum name="time_machine" value="4" />
+            <enum name="chronos" value="5" />
+            <enum name="in_circle" value="6" />
+            <enum name="ventilator" value="7" />
+            <enum name="pulse" value="8" />
+            <enum name="half_moon" value="9" />
+            <enum name="ball_pulse" value="10" />
+            <enum name="ball_scale" value="11" />
+            <enum name="ball_spin_fade" value="12" />
+            <enum name="ball_pulse_sync" value="13" />
+            <enum name="ball_beat" value="14" />
+            <enum name="line_scale" value="15" />
+            <enum name="line_scale_pulse_out" value="16" />
+            <enum name="line_scale_pulse_out_rapid" value="17" />
+            <enum name="expandable_balls" value="18" />
+            <enum name="circular" value="19" />
+            <enum name="ball_ring" value="20" />
+            <enum name="tornado_circle_1" value="21" />
+            <enum name="tornado_circle_2" value="22" />
+            <enum name="tornado_circle_3" value="23" />
+        </attr>
+    </declare-styleable>
+</resources>

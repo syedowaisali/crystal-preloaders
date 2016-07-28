@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- very small ============================================================= -->
+    <dimen name="width_vs">40dp</dimen>
+    <dimen name="height_vs">40dp</dimen>
+    <dimen name="height_ball_pulse_vs">11dp</dimen>
+    <dimen name="height_ball_pulse_sync_vs">18dp</dimen>
+    <dimen name="width_line_scale_vs">30dp</dimen>
+    <dimen name="height_line_scale_vs">22dp</dimen>
+    <dimen name="skype_ball_size_vs">7dp</dimen>
+    <dimen name="hasher_factor_vs">3dp</dimen>
+
+    <!-- small ================================================================== -->
+    <dimen name="width_s">70dp</dimen>
+    <dimen name="height_s">70dp</dimen>
+    <dimen name="height_ball_pulse_s">20dp</dimen>
+    <dimen name="height_ball_pulse_sync_s">35dp</dimen>
+    <dimen name="width_line_scale_s">40dp</dimen>
+    <dimen name="height_line_scale_s">35dp</dimen>
+    <dimen name="skype_ball_size_s">9dp</dimen>
+    <dimen name="hasher_factor_s">5dp</dimen>
+
+    <!-- medium ================================================================= -->
+    <dimen name="width_m">100dp</dimen>
+    <dimen name="height_m">100dp</dimen>
+    <dimen name="height_ball_pulse_m">30dp</dimen>
+    <dimen name="height_ball_pulse_sync_m">50dp</dimen>
+    <dimen name="width_line_scale_m">80dp</dimen>
+    <dimen name="height_line_scale_m">28dp</dimen>
+    <dimen name="skype_ball_size_m">11dp</dimen>
+    <dimen name="hasher_factor_m">6dp</dimen>
+
+    <!-- large ================================================================== -->
+    <dimen name="width_l">130dp</dimen>
+    <dimen name="height_l">130dp</dimen>
+    <dimen name="height_ball_pulse_l">40dp</dimen>
+    <dimen name="height_ball_pulse_sync_l">66dp</dimen>
+    <dimen name="width_line_scale_l">110dp</dimen>
+    <dimen name="height_line_scale_l">28dp</dimen>
+    <dimen name="skype_ball_size_l">13dp</dimen>
+    <dimen name="hasher_factor_l">7dp</dimen>
+
+    <!-- extra large ============================================================ -->
+    <dimen name="width_el">160dp</dimen>
+    <dimen name="height_el">160dp</dimen>
+    <dimen name="height_ball_pulse_el">48dp</dimen>
+    <dimen name="height_ball_pulse_sync_el">82dp</dimen>
+    <dimen name="width_line_scale_el">140dp</dimen>
+    <dimen name="height_line_scale_el">28dp</dimen>
+    <dimen name="skype_ball_size_el">15dp</dimen>
+    <dimen name="hasher_factor_el">9dp</dimen>
+
+
+</resources>
