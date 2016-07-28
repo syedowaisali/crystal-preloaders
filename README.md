@@ -36,3 +36,25 @@ crs_pl_size | ``small`` | Apply different  sizes. | ``very_small``, ``small``, `
 crs_pl_fg_color| ``#000000`` | Apply foreground color. | any color
 crs_pl_bg_color | ``#ffffff`` | Apply background color. | any color
 crs_pl_style | skype_balls | Apply different style preloader. | ``skype_balls``, ``hasher``, ``alternative``, ``triplex``, ``time_machine``, ``chronos``, ``in_circle``, ``ventilator``, ``pulse``, ``half_moon``, ``ball_pulse``, ``ball_scale``, ``ball_spin_fade``, ``ball_pulse_sync``, ``ball_beat``, ``line_scale``, ``line_scale_pulse_out``, ``line_scale_pulse_out_rapid``, ``expandable_balls``, ``circular``, ``ball_ring``, ``ball_ring``, ``tornado_circle_1``, ``tornado_circle_2``, ``tornado_circle_3``
+
+##On The Web
+
+* [Crystal Preloaders](http://codingsignals.com/crystal-preloaders-in-android/) *CODING SIGNALS*
+ 
+# LICENSE
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+##Authors
+
+* [Syed Owais Ali](https://github.com/syedowaisali) *original Author*
