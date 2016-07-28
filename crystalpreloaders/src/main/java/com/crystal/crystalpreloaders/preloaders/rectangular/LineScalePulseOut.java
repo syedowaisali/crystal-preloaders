@@ -1,4 +1,4 @@
-package com.crystal.crystalpreloaders.preloaders.circular;
+package com.crystal.crystalpreloaders.preloaders.rectangular;
 
 import android.animation.ValueAnimator;
 import android.graphics.Canvas;
@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * Created by owais.ali on 7/21/2016.
  */
-public class LineScale extends BasePreloader {
+public class LineScalePulseOut extends BasePreloader {
 
     private static final int TOTAL_LINES = 5;
     private static float STROKE_WIDTH;
@@ -27,7 +27,7 @@ public class LineScale extends BasePreloader {
     private float[] yScale;
     private int[] delays;
 
-    public LineScale(View target, int size) {
+    public LineScalePulseOut(View target, int size) {
         super(target, size);
     }
 
@@ -55,11 +55,11 @@ public class LineScale extends BasePreloader {
         }
 
         delays = new int[TOTAL_LINES];
-        delays[0] = 0;
-        delays[1] = 200;
-        delays[2] = 350;
-        delays[3] = 500;
-        delays[4] = 650;
+        delays[0] = 800;
+        delays[1] = 400;
+        delays[2] = 0;
+        delays[3] = 400;
+        delays[4] = 800;
 
         valueAnimators = new ValueAnimator[TOTAL_LINES];
     }
@@ -78,7 +78,7 @@ public class LineScale extends BasePreloader {
 
         valueAnimators[index] = ValueAnimator.ofFloat(maxScale, minScale);
         valueAnimators[index].setStartDelay(delays[index]);
-        valueAnimators[index].setDuration(650);
+        valueAnimators[index].setDuration(600);
         valueAnimators[index].setRepeatCount(ValueAnimator.INFINITE);
         valueAnimators[index].setRepeatMode(ValueAnimator.REVERSE);
         valueAnimators[index].setInterpolator(new AccelerateInterpolator());
