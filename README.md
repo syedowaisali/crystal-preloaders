@@ -35,4 +35,4 @@ Attribute | Default | Description | Options
 crs_pl_size | ``small`` | Apply different  sizes. | ``very_small``, ``small``, ``medium``, ``large``, ``extra_large``
 crs_pl_fg_color| ``#000000`` | Apply foreground color. | any color
 crs_pl_bg_color | ``#ffffff`` | Apply background color. | any color
-crs_pl_style | skype_balls | Apply different style preloader. | ``skype_balls``, ``hasher``, ``alternative``, ``triplex``, ``time_machine``, ``chronos``, ``in_circle``
+crs_pl_style | skype_balls | Apply different style preloader. | # Circular ``skype_balls``, ``hasher``, ``alternative``, ``triplex``, ``time_machine``, ``chronos``, ``in_circle``
