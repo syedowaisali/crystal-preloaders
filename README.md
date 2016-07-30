@@ -1,4 +1,4 @@
-[ ![Download](https://api.bintray.com/packages/syedowaisali/maven/crystalpreloaders/images/download.svg) ](https://bintray.com/syedowaisali/maven/crystalpreloaders/_latestVersion)
+[ ![Download](https://api.bintray.com/packages/syedowaisali/maven/crystalpreloaders/images/download.svg) ](https://bintray.com/syedowaisali/maven/crystalpreloaders/_latestVersion) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Crystal%20Preloaders-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/3997)
 
 # Crystal Preloaders
 
