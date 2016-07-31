@@ -37,7 +37,7 @@ Attribute | Default | Description | Options
 crs_pl_size | ``small`` | Apply different  sizes. | ``very_small``, ``small``, ``medium``, ``large``, ``extra_large``
 crs_pl_fg_color| ``#000000`` | Apply foreground color. | any color
 crs_pl_bg_color | ``#ffffff`` | Apply background color. | any color
-crs_pl_style | skype_balls | Apply different style preloader. | ``skype_balls``, ``hasher``, ``alternative``, ``triplex``, ``time_machine``, ``chronos``, ``in_circle``, ``ventilator``, ``pulse``, ``half_moon``, ``ball_pulse``, ``ball_scale``, ``ball_spin_fade``, ``ball_pulse_sync``, ``ball_beat``, ``line_scale``, ``line_scale_pulse_out``, ``line_scale_pulse_out_rapid``, ``expandable_balls``, ``circular``, ``ball_ring``, ``ball_ring``, ``tornado_circle_1``, ``tornado_circle_2``, ``tornado_circle_3``
+crs_pl_style | skype_balls | Apply different style preloader. | ``skype_balls``, ``hasher``, ``alternative``, ``triplex``, ``time_machine``, ``chronos``, ``in_circle``, ``ventilator``, ``pulse``, ``half_moon``, ``ball_pulse``, ``ball_scale``, ``ball_spin_fade``, ``ball_pulse_sync``, ``ball_beat``, ``line_scale``, ``line_scale_pulse_out``, ``line_scale_pulse_out_rapid``, ``expandable_balls``, ``circular``, ``ball_ring``, ``tornado_circle_1``, ``tornado_circle_2``, ``tornado_circle_3``
 
 ##On The Web
 
