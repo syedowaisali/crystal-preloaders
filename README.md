@@ -1,4 +1,4 @@
-[ ![Download](https://api.bintray.com/packages/syedowaisali/maven/crystalpreloaders/images/download.svg) ](https://bintray.com/syedowaisali/maven/crystalpreloaders/_latestVersion) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Crystal%20Preloaders-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/3997) [![Coding Signals](https://img.shields.io/badge/Coding%20Signals-CrystalPreloaders-orange.svg)](http://codingsignals.com/crystal-preloaders-in-android/)
+[ ![Download](https://api.bintray.com/packages/syedowaisali/maven/crystalpreloaders/images/download.svg) ](https://bintray.com/syedowaisali/maven/crystalpreloaders/_latestVersion) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Crystal%20Preloaders-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/3997) [![Coding Signals](https://img.shields.io/badge/Coding%20Signals-Crystal%20Preloaders-orange.svg)](http://codingsignals.com/crystal-preloaders-in-android/)
 
 
 
@@ -39,10 +39,6 @@ crs_pl_fg_color| ``#000000`` | Apply foreground color. | any color
 crs_pl_bg_color | ``#ffffff`` | Apply background color. | any color
 crs_pl_style | skype_balls | Apply different style preloader. | ``skype_balls``, ``hasher``, ``alternative``, ``triplex``, ``time_machine``, ``chronos``, ``in_circle``, ``ventilator``, ``pulse``, ``half_moon``, ``ball_pulse``, ``ball_scale``, ``ball_spin_fade``, ``ball_pulse_sync``, ``ball_beat``, ``line_scale``, ``line_scale_pulse_out``, ``line_scale_pulse_out_rapid``, ``expandable_balls``, ``circular``, ``ball_ring``, ``tornado_circle_1``, ``tornado_circle_2``, ``tornado_circle_3``
 
-##On The Web
-
-* [Crystal Preloaders](http://codingsignals.com/crystal-preloaders-in-android/) *CODING SIGNALS*
- 
 # LICENSE
 
 Licensed under the Apache License, Version 2.0 (the "License");
